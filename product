@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Mall+</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&display=swap" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/d-4.png" alt="" / >
+			<span>
+             <center><h1><b>Mall </span><strong><sup>+</sup></strong></b></h1></center>
+          </a>
+
+          <div class="navbar-collapse" id="">
+            <div class="container">
+              <div class=" mr-auto flex-column flex-lg-row align-items-center">
+                <ul class="navbar-nav justify-content-between ">
+                  <div class="d-none d-lg-flex">
+                    <li class="nav-item">
+                      <a class="nav-link" href="fruit.html">
+                        Customer Support : +234 9023445177</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="service.html">
+                        Support@Mall+.com
+                      </a>
+                    </li>
+                  </div>
+                  <div class=" d-none d-lg-flex">
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">
+                        Login / Register
+                      </a>
+                    </li>
+                    <form class="form-inline my-2 ml-5 mb-3 mb-lg-0">
+                      <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                    </form>
+                  </div>
+                </ul>
+              </div>
+            </div>
+
+            <div class="custom_menu-btn">
+              <button onclick="openNav()"></button>
+            </div>
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+                <a href="index.html">HOME</a>
+                <a href="product.html">PRODUCTS</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- products section -->
+  <section class="products_section">
+    <div class="heading_container">
+      <h2>
+        New Products In Store
+      </h2>
+      <p>
+        Featured Product Just For You
+      </p>
+    </div>
+    <div class="container layout_padding">
+      <div class="product_container">
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/p1.png" alt="" />
+              <span>
+                Flash Sale
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                $120.00
+              </span>
+              <p>
+                Shop all Fitness Styles
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/p2.png" alt="" />
+              <span>
+                Flash Sale
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                $110.00
+              </span>
+              <p>
+                Shop All Leisure Deals
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/p3.png" alt="" />
+              <span>
+                Flash Sale
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                $150.00
+              </span>
+              <p>
+                Shop all Lingerie Deals
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/p4.png" alt="" />
+              <span>
+                Flash Sale
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                $150.00
+              </span>
+              <p>
+                Shop al Leisure Styles
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/Lampstand.jpg" alt="" Height="260" />
+              <span>
+                Hot Deal
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                $150.00
+              </span>
+              <p>
+                Shop all Lighting Deals
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/p6.png" alt="" />
+              <span>
+                Hot Deal
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                $150.00
+              </span>
+              <p>
+                Shop all Lingerie Styles
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/p7.png" alt="" />
+              <span>
+                Hot Deal
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                $150.00
+              </span>
+              <p>
+                Shop all Leisure Deals
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/p8.png" alt="" />
+              <span>
+                Hot Deal
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                $150.00
+              </span>
+              <p>
+                Shop all Scool Deals
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/p9.png" alt="" />
+              <span>
+                Top Deal
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                $150.00
+              </span>
+              <p>
+                Shop all Lingerie Items
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/p10.png" alt="" />
+              <span>
+                Top Deal
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                $150.00
+              </span>
+              <p>
+                Shop all for Cooking
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/p11.png" alt="" />
+              <span>
+                Top Deal
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                $150.00
+              </span>
+              <p>
+                Shop all Lingerie Liesure Styles
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="product_box">
+            <div class="product_img-box">
+              <img src="images/p12.png" alt="" />
+              <span>
+                Top Deal
+              </span>
+            </div>
+            <div class="product_detail-box">
+              <span>
+                $150.00
+              </span>
+              <p>
+                Order Music Deals
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end products section -->
+
+  <!-- find section -->
+  <section class="find_section layout_padding-bottom">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 offset-md-2">
+          <div class="find_container">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="find_container-img">
+                  <img src="images/find-img.png" alt="" />
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <h3>
+                  Find Everything <br />
+                  From A to Z
+                </h3>
+                <p>
+                  Back to School Offers
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="shop_container">
+            <div class="row">
+              <div class="col-sm-6">
+                <p>
+                  Shoes
+                </p>
+                <h3>
+                  Shop by catagories
+                </h3>
+                <div>
+                  <a href="">
+                    View More
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="shoe_img-box">
+                  <img src="images/shoes.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="find_img-box">
+            <img src="images/find-hero.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end find section -->
+
+
+  <!-- sign section -->
+  <section class="sign_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h3>
+            Sign up for Newsletter
+          </h3>
+          <p>
+            There are many variation of Deals & styles available,
+            but majority of the offers are while stock last. 
+			Get updates about latest Deals & Offers available directly in your mail box.
+          </p>
+        </div>
+        <div class="col-md-7">
+          <form action="">
+            <input type="email" placeholder="Enter your email" />
+            <button>
+              Sign Up
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end sign section -->
+
+  <!-- info section -->
+  <section class="info_section layout_padding">
+    <div class="container links_container">
+      <div class="row ">
+        <div class="col-md-3">
+          <h3>
+            CUSTOMER SERVICE
+          </h3>
+          <ul>
+            <li>
+              <a href="">
+                Customer Care
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Return Policy
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Shipping/ Delivery
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Promotion Terms
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3>
+            LET US HELP YOU
+          </h3>
+          <ul>
+            <li>
+              <a href="">
+                Your Account
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Track Your Orders
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Shipping Rates & Policies
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Amazon Prime
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Returns & Replacements
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Help
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3>
+            ABOUT
+          </h3>
+          <ul>
+            <li>
+              <a href="">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Careers
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Affiliate Mall
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Press & News
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Promotions
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Terms & Conditions
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h3>
+            DEALS/ OFFERS
+          </h3>
+          <ul>
+            <li>
+              <a href="">
+                Daily Deals
+              </a>
+            </li>
+            <li>
+              <a href="">
+                App Only Deals
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Gift/ Coupon Vouchers
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Trending Products
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Hot/ Flash Sales
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="follow_container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="app_container">
+              <h3>
+                Download Our Mobile Apps
+
+              </h3>
+              <div>
+                <img src="images/google-play.png" alt="">
+                <img src="images/apple-store.png" alt=""><br>
+              </div>
+            </div>
+          </div>
+		  <br>
+          <div class="col-md-3 ">
+            <div class="info_social">
+              <div>
+                <a href="https://www.facebook.com/dorleeredeemer.ekeke">
+                  <img src="images/fb.png" alt="">
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/twitter.png" alt="">
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <img src="images/linkedin.png" alt="">
+                </a>
+              </div>
+              <div>
+                <a href="www.instagram.com/dorlee_redeemer?r=nametag">
+                  <img src="images/instagram.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      Copyright &copy; 2019 All Rights Reserved By
+      <a href="https://www.Facebook.com/dorleeredeemer.ekeke">E-DOR's</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  </script>
+</body>
+
+</html>
